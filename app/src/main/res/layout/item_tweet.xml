@@ -34,4 +34,12 @@
         android:layout_toEndOf="@+id/profileImageView"
         android:text="This is my tweet!" />
 
+    <TextView
+        android:id="@+id/tvTweetTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        android:layout_toEndOf="@+id/tvScreenName"
+        android:text="1h" />
+
 </RelativeLayout>
